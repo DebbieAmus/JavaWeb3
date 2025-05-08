@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'new', url: 'https://github.com/preyelg/JavaWeb3.git'
+                git branch: 'new', url: 'https://github.com/debbieamus/JavaWeb3.git'
             }
         }
  
