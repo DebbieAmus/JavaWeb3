@@ -2,8 +2,8 @@ pipeline {
     agent any
  
     environment {
-        DOCKER_HUB_CREDENTIALS = 'Docker-Hub-Credentials'
-        IMAGE_NAME = 'kemiagbabiaka/java-web-calculator'
+        DOCKER_HUB_CREDENTIALS = 'dockerhub'
+        IMAGE_NAME = 'debcakes4life/java-web-calculator'
     }
  
     stages {
